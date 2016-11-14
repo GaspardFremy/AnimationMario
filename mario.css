@@ -1,0 +1,570 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#marioworld {
+	background-image: url(image/bg/backgroundlol.png);
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 2223px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+
+/* FIRST LEVEL */ 
+
+
+#twoblock {
+    width: 100px;
+    position: absolute;
+    top: 340px;
+    left: 180px;
+}
+
+#yellowblock {
+    width: 33px;
+    position: absolute;
+    top: 340px;
+    left: 213px;
+    -webkit-animation: block_top 15s infinite linear;
+    animation-delay: -1.5s;
+}
+
+#hitted_block {
+    width: 34px;
+    position: absolute;
+    top: 340px;
+    left: 213px;
+    -webkit-animation: dark_block_appear 15s infinite linear;
+    animation-delay: -1.s;
+}
+
+#tube {
+    width: 120px;
+    position: absolute;
+    top: 328px;
+    right: 50px;
+    z-index: 70;
+}
+
+#blaster {
+    width: 50px;
+    position: absolute;
+    top: 405px;
+    right: 150px; 
+    z-index: 60;
+}
+
+#mud {
+    position: absolute;
+    width: 300px;
+    top: 334px;
+    left: 764px;
+}
+
+#plant_tube {
+    position: absolute;
+    width: 95px;
+    top: 294px;
+    right: 702px;
+    z-index: 10;
+}
+
+#bullet {
+    width: 42px;
+    height: auto;
+    position: absolute;
+    z-index: 50;
+    -webkit-animation: bullet 7.5s linear infinite;
+}
+
+#mushroom {
+    position: absolute;
+    width: 35px;
+    z-index: 70;
+    -webkit-animation: mush_appear 15s linear infinite, mush_move 15s linear infinite;
+    animation-delay: -2s;
+}
+
+#mushroom_text {
+    position: absolute;
+    width: 35px;
+    -webkit-animation: mush_text_appear 15s infinite, mush_text_move 2s linear infinite;
+    animation-delay: -2s;
+}
+
+#plant1 {
+    position: absolute;
+    width: 80px;
+    top: 300px;
+    right: 710px;
+    transition-property: top;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+#pirhana:hover>img {
+    top: 218px;
+}
+
+
+/* SECOND LEVEL */ 
+
+
+#crab1 {
+    position: absolute;
+    width: 40px;
+    top: 1112px;
+    left: 957px;
+    -webkit-animation: crabe_move1 2s infinite;
+}
+
+#crab2 {
+    position: absolute;
+    width: 40px;
+    top: 1112px;
+    left: 957px;
+    -webkit-animation: crabe_move2 2s infinite;
+}
+
+#jellyfish {
+    position: absolute;
+    width: 30px;
+    top: 1015px;
+    left: 1230px;
+    -webkit-animation: jellyfish_move 15s ease-out infinite;
+}
+
+#jellyfish2 {
+    position: absolute;
+    width: 30px;
+    top: 1015px;
+    left: 1230px;
+    -webkit-animation: jellyfish_move2 30s ease-out infinite;
+}
+
+
+#blue_tube {
+    position: absolute;
+    width: 77px;
+    top: 1304px;
+    left: 300px;
+    z-index: 2;
+}
+
+#big_fish {
+    position: absolute;
+    width: 50px;
+    top: 1307px;
+    left: 310px;
+    transition-property: top;
+    transition-duration: 15s;
+    transition-timing-function: linear;
+}
+
+#hoverfish:hover>img {
+    top: 975px;
+}
+
+#big_fish_covering {
+    position: absolute;
+    top: 1399px;
+    left: 216px;
+    width: 234px;
+}
+
+#fish12 {
+    position: absolute;
+    width: 22px;
+    top: 1382px;
+    -webkit-animation: fish12_move 30s linear infinite;
+}
+
+#fish14 {
+    position: absolute;
+    top: 1382px;
+    width: 22px;;
+    -webkit-animation: fish14_move 30s linear infinite;
+}
+
+#fish15 {
+    position: absolute;
+    width: 22px;
+    top: 1382px;
+    -webkit-animation: fish15_move 60s linear infinite;
+}
+
+#under_water_block {
+    position: absolute;
+    width: 230px;
+    top: 1151px;
+    left: 893px;
+    z-index: 10;
+}
+
+/* THIRD LEVEL */ 
+
+
+#fireball {
+    position: absolute;
+    left: 414px;
+    -webkit-animation: fire_ball 3s ease-out infinite, up_fireball 3s infinite; 
+}
+
+#fireball2 {
+    position: absolute;
+    left: 463px;
+    -webkit-animation: fire_ball 3s ease-out infinite, up_fireball 3s infinite;
+}
+
+#fireball3 {
+    position: absolute;
+    left: 906px;
+    -webkit-animation: fire_ball 3s ease-out infinite, up_fireball 3s infinite;
+}
+
+#reverse_fireball {
+    position: absolute;
+    left: 414px;
+    -webkit-animation: fire_ball 3s ease-out infinite, down_fireball 3s infinite;
+}
+
+#reverse_fireball2 {
+    position: absolute;
+    left: 463px;
+    -webkit-animation: fire_ball 3s ease-out infinite, down_fireball 3s infinite;
+}
+
+#reverse_fireball3 {
+    position: absolute;
+    left: 906px;
+    -webkit-animation: fire_ball 3s ease-out infinite, down_fireball 3s infinite;
+}
+
+#lava1 {
+    position: absolute;
+    width: 100px;
+    top: 2200px;
+    left: 393px;
+}
+
+#lava2 {
+    position: absolute;
+    width: 80px;
+    top: 2201px;
+    left: 875px;
+}
+
+#angry_stone1 {
+    position: absolute;
+    width: 63px;
+    top: 1960px;
+    left: 650px;
+    -webkit-animation: angry-up-down 3s ease-out infinite, angry-shake 3s linear infinite;
+    animation-delay: 0.2s;
+}
+
+#angry_stone2 {
+    position: absolute;
+    width: 63px;
+    top: 1960px;
+    left: 581px;
+    -webkit-animation: angry-up-down 3s ease-out infinite, angry-shake2 3s linear infinite;
+    animation-delay: 0.4s;
+}
+
+#angry_stone3 {
+    position: absolute;
+    width: 63px;
+    top: 1960px;
+    left: 719px;
+    -webkit-animation: angry-up-down 3s ease-out infinite, angry-shake3 3s linear infinite;
+}
+
+
+/* NEWS LETTER */
+
+
+#newsletter {
+    background-image: url("image/bg/newsletterbg.png");
+    background-size:contain;
+    height: 380px;
+    text-align: center;
+}
+
+#newsletter h1 {
+	font-size: 30px;
+	font-family: "Noto Sans", sans-serif;
+	color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.emailing {
+    border: solid 1px #c4c4c1;  
+    width: 474px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.subscribe_button {
+    background-color: #d8b78a;
+	font-size: 12px;
+	font-family: "Noto Sans", sans-serif;
+	border-radius: 30px;
+	border:  2px solid #4ca64c;
+	text-align: center;
+	color: #4ca64c;
+	width: 140px;
+	padding: 6px;
+    margin-top: 20px;
+    text-decoration: none;    
+}
+
+.subscribe_button:hover{
+    background-color: #4ca64c;
+    color: #d8b78a;
+    border-color: #d8b78a;
+}
+
+#form label {
+    height: 10px; 
+}
+
+/*COPYRIGHT */
+
+#copyright p {
+    background-color: #141518;
+    color: #636365;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    text-align: center;
+}
+
+#copyright {
+    background-color: #141518;   
+} 
+
+/* 8888888888888888888888888888888888888888888888 */
+/* 8888888888888888888888888888888888888888888888 */
+/* 8888888888888888888888888888888888888888888888 */
+/* 8888888888888888888888888888888888888888888888 */
+/* 888888888 MOVING ANIMATION KEYFRAMES 888888888 */
+/* 8888888888888888888888888888888888888888888888 */
+/* 8888888888888888888888888888888888888888888888 */
+/* 8888888888888888888888888888888888888888888888 */
+/* 8888888888888888888888888888888888888888888888 */
+
+
+/* FIRST LEVEL */ 
+
+
+
+@-webkit-keyframes mush_appear {
+    0%   {opacity: 0;  }
+    23.4%{opacity: 0;  }
+    23.5%{opacity: 1;  }
+    26%  {opacity: 1;  }
+    27%  {opacity: 1;  }
+    28%  {opacity: 0;  }
+    100% {opacity: 0;  }
+}
+
+@-webkit-keyframes mush_move {
+    0%  { top:306px ; left: 212px; }
+    23% { top:306px ; left: 212px; }
+    24% { top:306px ; left: 280px; }
+    27% { top:420px ; left: 290px; }
+    30% { top:420px ; left: 300px; }
+    21% { top:306px ; left: 212px; }
+    21% { top:306px ; left: 212px; }
+    100%{ top:306px ; left: 212px; }
+}
+
+@-webkit-keyframes mush_text_move {
+    0%   {top: 383px; left: 318px;}
+    100% {top: 353px; left: 318px;}
+}
+
+@-webkit-keyframes mush_text_appear {
+    0%  {opacity: 0;}
+    29% {opacity: 0;}
+    30% {opacity: 1;}
+    32% {opacity: 1;}
+    33% {opacity: 0.5;}
+    34% {opacity: 0;}
+    100%{opacity: 0;}
+}
+
+@-webkit-keyframes bullet {
+	0%  { top: 398px; right: 150px;  }
+	10% { top: 398px; right: 150px;  }
+    19% { top: 398px; right: 150px;  }
+	20% { top: 398px; right: 150px;  }
+    21% { top: 398px; right: 150px;  }
+	30% { top: 398px; right: 150px;  }
+	100%{ top: 398px; right:  100%;  }
+}
+
+@-webkit-keyframes block_top {
+    0%    { top: 340px; left: 213px;  }
+    20%   { top: 340px; left: 213px;  }
+    20.5% { top: 320px; left: 213px;  }
+    21%   { top: 340px; left: 213px;  }
+    100%  { top: 340px; left: 213px;  }
+}
+
+@-webkit-keyframes dark_block_appear {
+    0%    {opacity: 0;}
+    20.5% {opacity: 0;}
+    21%   {opacity: 0;}
+    21.2% {opacity: 1;}
+} 
+    
+@-webkit-keyframes plant1_appear {
+    0%   {opacity: 1;}
+    29%  {opacity: 1;}
+    30%  {opacity: 0;}
+    60%  {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+
+/* SECUND LEVEL */
+
+
+@-webkit-keyframes crabe_move1 {
+    0%   {opacity: 1;}
+    49%  {opacity: 1;}
+    50%  {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+@-webkit-keyframes crabe_move2 {
+    0%   {opacity: 0;}
+    50%  {opacity: 0;}
+    51%  {opacity: 1;}
+    100% {opacity: 1;}
+}
+
+@-webkit-keyframes jellyfish_move2 {
+    0%  {top: 750px;  left: 1230px;} 
+    50% {top: 1000px; left: 1230px;}
+    100%{top: 750px;  left: 1230px;}   
+}
+
+@-webkit-keyframes jellyfish_move {
+    0%  {top:  915px; left: 1230px;} 
+    10% {top:  980px; left: 1250px;}
+    20% {top: 1000px; left: 1230px;}
+    30% {top: 1050px; left: 1210px;}
+    40% {top: 1100px; left: 1240px;}
+    50% {top: 1130px; left: 1230px;}
+    60% {top: 1130px; left: 1230px;}
+    70% {top: 1100px; left: 1240px;}
+    80% {top: 1050px; left: 1210px;}
+    90% {top: 1000px; left: 1230px;}
+    100% {top: 915px; left: 1230px;}   
+}
+
+
+@-webkit-keyframes fish12_move {
+    0%     {left: 2px;}
+    50% {left: 1258px;}
+    100%   {left: 2px;}
+}
+
+@-webkit-keyframes fish14_move {
+    0%     {right: 2px;}
+    50% {right: 1258px;}
+    100%   {right: 2px;}
+}
+
+@-webkit-keyframes fish15_move {
+    0%     {left: 2px;}
+    50% {left: 1258px;}
+    100%   {left: 2px;}
+}
+
+/* THIRD LEVEL */ 
+
+
+@-webkit-keyframes fire_ball {
+    0%  { top: 2200px;}
+    50% { top: 2106px;}
+    100%{ top: 2200px;}
+}
+
+@-webkit-keyframes up_fireball {
+    0%  { opacity: 1;}
+    50% { opacity: 1;}
+    51% { opacity: 0;}
+    100%{ opacity: 0;}
+}
+
+@-webkit-keyframes down_fireball {
+    0%  { opacity: 0;}
+    50% { opacity: 0;}
+    51% { opacity: 1;}
+    100%{ opacity: 1;}
+}
+
+@-webkit-keyframes angry-shake {
+    0%  {left : 650px;}
+    20% {left : 653px;}
+    24% {left : 650px;}
+    28% {left : 653px;}
+    32% {left : 650px;}
+    36% {left : 653px;}
+    40% {left : 650px;}
+    44% {left : 653px;}
+    48% {left : 650px;}
+    49% {left : 650px;}
+    100%{left : 650px;}  
+}
+
+@-webkit-keyframes angry-shake2 {
+    0%  {left : 581px;}
+    20% {left : 581px;}
+    24% {left : 581px;}
+    28% {left : 584px;}
+    32% {left : 581px;}
+    36% {left : 584px;}
+    40% {left : 581px;}
+    44% {left : 584px;}
+    48% {left : 581px;}
+    49% {left : 581px;}
+    100%{left : 581px;}  
+}
+
+@-webkit-keyframes angry-shake3 {
+    0%  {left : 719px;}
+    20% {left : 721px;}
+    24% {left : 719px;}
+    28% {left : 721px;}
+    32% {left : 719px;}
+    36% {left : 721px;}
+    40% {left : 719px;}
+    44% {left : 721px;}
+    48% {left : 719px;}
+    49% {left : 719px;}
+    100%{left : 719px;}  
+}
+
+@-webkit-keyframes angry-up-down {
+    0%   { top: 1960px;}
+    48%  { top: 1960px;}
+    50%  { top: 2094px;}
+    60%  { top: 2094px;}
+    65%  { top: 2094px;}
+    100% { top: 1960px;}
+}
